@@ -8,7 +8,7 @@ tags: ["homelab", "self-hosting"]
 categories: ["self-hosting"]
 series: ["Homelab Journey"]
 cover:
-  image: "/images/hardware.JPG"
+  image: "images/hardware.JPG"
   caption: "My Homelab"
 ShowToc: true
 TocOpen: false

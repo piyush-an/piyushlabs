@@ -28,11 +28,9 @@ markup:
       unsafe: true  # Allow HTML in markdown
     renderHooks:
       image:
-        # useEmbedded: always
-        useEmbedded: always
+        useEmbedded: auto
       link:
-        # useEmbedded: always
-        useEmbedded: always
+        useEmbedded: auto
   highlight:
     noClasses: false
     lineNos: false
