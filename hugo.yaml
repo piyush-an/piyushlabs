@@ -1,0 +1,141 @@
+baseURL: https://blog.piyushlabs.com/
+languageCode: en-us
+title: Piyush Labs
+theme: ["PaperMod"]
+
+enableEmoji: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# Pagination
+paginate: 10
+
+# Permalinks for clean URLs
+permalinks:
+  posts: /:year/:month/:title/
+
+# Minification for performance
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# Markdown renderer configuration
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  # Allow HTML in markdown
+  highlight:
+    noClasses: false
+    lineNos: false
+
+# Taxonomies for content organization
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+# Output formats (JSON needed for search)
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Menu configuration
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+params:
+  env: staging # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Piyush's personal blog on self-hosting, 3D printing, home automation, and open source projects"
+  keywords: ["self-hosting", "3D printing", "home automation", "open source", "maker projects", "engineering"]
+  author:
+      name: Piyush Anand
+      email: "anand.pi@northeastern.edu"
+
+  # images: ["/images/avatar.png"] # Uncomment and add your avatar/banner image for social sharing
+
+  # Analytics - Add your Google Analytics ID when ready for production
+  # googleAnalytics: "G-MEASUREMENT_ID"
+
+  contact:
+    email: "anand.pi@northeastern.edu"
+
+  homeInfoParams:
+    Title: "Hi, I'm Piyush"
+    Content: >
+      I'm a software engineer based in Boston. This is my place away from work where I share my hobby experiences in self-hosting, 3D printing, home automation, and open source software.
+
+  # Content display options
+  ShowReadingTime: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  ShowToc: true
+  TocOpen: false
+
+  # Cover image settings
+  cover:
+    linkFullImages: true
+    responsiveImages: true
+
+  # Site branding
+  label:
+    text: "Piyush Labs"
+    icon: "/favicon.ico"
+    iconHeight: 35
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/piyush-an"
+    - name: linkedin
+      title: View on Linkedin
+      url: "https://www.linkedin.com/in/anandpiyush/"
+    # - name: rss
+    #   title: Subscribe to RSS
+    #   url: "/index.xml"
+    - name: email
+      title: Email Me
+      url: "mailto:anand.pi@northeastern.edu"
+
+  # Enable community contributions
+  editPost:
+    URL: "https://github.com/piyush-an/piyushlabs/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+# services:
+#   instagram:
+#     disableInlineCSS: true
+#   x:
+#     disableInlineCSS: true
+
+  footer:
+    enable: false
+
+# Copyright notice for RSS and footer
+# copyright: "© 2024-2026 Piyush Anand"
+
+# RSS feed settings
+# rssLimit: 20
