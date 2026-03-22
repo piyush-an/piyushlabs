@@ -26,6 +26,11 @@ markup:
   goldmark:
     renderer:
       unsafe: true  # Allow HTML in markdown
+    renderHooks:
+      image:
+        enableDefault: true
+      link:
+        enableDefault: true
   highlight:
     noClasses: false
     lineNos: false
