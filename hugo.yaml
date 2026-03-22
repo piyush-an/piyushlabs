@@ -13,8 +13,8 @@ buildExpired: false
 paginate: 10
 
 # Permalinks for clean URLs
-# permalinks:
-#   posts: /:year/:month/:title/
+permalinks:
+  posts: /:year/:month/:title/
 
 # Minification for performance
 minify:
