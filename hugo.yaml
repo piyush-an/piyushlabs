@@ -1,4 +1,4 @@
-baseURL: https://piyush-an.github.io/piyushlabs/
+# baseURL: https://piyush-an.github.io/piyushlabs/
 languageCode: en-us
 title: Piyush Labs
 theme: ["PaperMod"]
