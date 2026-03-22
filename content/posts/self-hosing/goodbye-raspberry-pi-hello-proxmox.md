@@ -40,6 +40,10 @@ Let's go through the hardware. I sourced these before memory and storage prices 
 - CPU: Intel Core i7-6700 @ 3.40GHz
 - RAM: Not installed yet
 
+[![Inside View](/images/inside.JPG)](/images/inside.JPG)
+
+This is what a 1-liter mini PC looks like from the inside. It has two RAM slots, one 2.5-inch SATA bay, and one NVMe drive slot.
+
 ## Setup Strategy
 
 ### Machine 1: Primary Workstation (HP ProDesk)
