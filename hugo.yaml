@@ -13,8 +13,8 @@ buildExpired: false
 paginate: 10
 
 # Permalinks for clean URLs
-permalinks:
-  posts: /:year/:month/:title/
+# permalinks:
+#   posts: /:year/:month/:title/
 
 # Minification for performance
 minify:
@@ -28,9 +28,11 @@ markup:
       unsafe: true  # Allow HTML in markdown
     renderHooks:
       image:
-        useEmbedded: fallback
+        # useEmbedded: always
+        useEmbedded: always
       link:
-        useEmbedded: fallback
+        # useEmbedded: always
+        useEmbedded: always
   highlight:
     noClasses: false
     lineNos: false

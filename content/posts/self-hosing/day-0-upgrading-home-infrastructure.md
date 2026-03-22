@@ -64,6 +64,7 @@ So I installed the [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virt
 - **Node 2**: Dedicated NAS setup predominantly
 
 ![Proxmox cluster summary](images/pve_cluster_summary.png)
+
 [![Proxmox cluster summary](/images/pve_cluster_summary.png)](/images/pve_cluster_summary.png)
 
 <!-- *My Proxmox cluster dashboard showing both nodes* -->
