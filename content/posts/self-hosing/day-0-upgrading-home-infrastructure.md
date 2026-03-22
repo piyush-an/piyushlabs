@@ -8,7 +8,7 @@ tags: ["homelab", "self-hosting"]
 categories: ["self-hosting"]
 series: ["Homelab Journey"]
 cover:
-  image: "/images/hardware.JPG"
+  image: images/hardware.JPG
   caption: "My Homelab"
 ShowToc: true
 TocOpen: false
@@ -64,6 +64,9 @@ So I installed the [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virt
 - **Node 2**: Dedicated NAS setup predominantly
 
 ![Proxmox cluster summary](/images/pve_cluster_summary.png)
+
+![Proxmox cluster summary](images/hardware.JPG)
+
 
 [![Proxmox cluster summary](/images/pve_cluster_summary.png)](/images/pve_cluster_summary.png)
 

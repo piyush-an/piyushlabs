@@ -1,4 +1,5 @@
 baseURL: https://me.piyushlabs.com/
+canonifyurls: true
 languageCode: en-us
 title: Piyush Labs
 theme: ["PaperMod"]
@@ -107,7 +108,7 @@ params:
   # Site branding
   label:
     text: "Piyush Labs"
-    icon: "/favicon.ico"
+    icon: favicon.ico
     iconHeight: 35
 
   socialIcons:
