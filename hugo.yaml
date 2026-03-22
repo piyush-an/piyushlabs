@@ -139,3 +139,6 @@ params:
 
 # RSS feed settings
 # rssLimit: 20
+caches:
+  images:
+    dir: :cacheDir/images
