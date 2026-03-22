@@ -54,19 +54,19 @@ menu:
   main:
     - identifier: posts
       name: Posts
-      url: /posts/
+      url: posts/
       weight: 10
     - identifier: tags
       name: Tags
-      url: /tags/
+      url: tags/
       weight: 20
     - identifier: archives
       name: Archive
-      url: /archives/
+      url: archives/
       weight: 30
     - identifier: search
       name: Search
-      url: /search/
+      url: search/
       weight: 40
 
 params:
