@@ -29,16 +29,16 @@ Let's go through the hardware stuff. I had sourcing these before the memory and 
 ### My Current Setup
 
 **3x HP ProDesk 400 G5 Desktop Mini**
-- CPU: Intel Core i3-9100T @ 3.10GHz
-- RAM: 8GB / 16GB / 20GB (varies by unit)
-- Storage: Varying from 256GB to 1TB
+  - CPU: Intel Core i3-9100T @ 3.10GHz
+  - RAM: 8GB / 16GB / 20GB (varies by unit)
+  - Storage: Varying from 256GB to 1TB
 
 **1x Raspberry Pi 4 Model B**
-- RAM: 8GB
+  - RAM: 8GB
 
 **1x Lenovo ThinkCentre M910q Tiny Desktop Computer Mini PC**
-- CPU: Intel Core i7-6700 @ 3.40GHz
-- RAM: Empty
+  - CPU: Intel Core i7-6700 @ 3.40GHz
+  - RAM: Empty
 
 ## Setup Strategy
 
