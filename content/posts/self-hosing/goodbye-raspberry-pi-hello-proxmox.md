@@ -59,7 +59,7 @@ When I’m away from home, I use [Tailscale VPN](https://tailscale.com/) to secu
 
 ### Machines 2 & 3: Proxmox Cluster (2x HP ProDesk)
 
-In my previous Raspberry Pi setup, I installed Ubuntu directly and ran a few containers on top. While it worked, I often had to restart from scratch when something broke at the OS level.
+In my previous Raspberry Pi setup, I installed Ubuntu directly and ran a few containers on top. While it worked, A few instances where I had to restart from scratch when something broke at the OS level.
 
 This time, I wanted a proper virtualization setup that could handle both containers and full VMs with better isolation and flexibility.
 
