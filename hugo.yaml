@@ -131,6 +131,24 @@ params:
     Text: "Suggest Changes"
     appendFilePath: true
 
+  # Comments configuration
+  comments: true  # Enable comments globally
+
+  # Giscus configuration for comments
+  giscus:
+    repo: "piyush-an/piyushlabs"
+    repoID: "R_kgDORbmVZA"
+    category: "Blog Comments"
+    categoryID: "DIC_kwDORbmVZM4C5DeY"
+    mapping: "pathname"
+    strict: "0"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "bottom"
+    theme: "preferred_color_scheme"
+    lang: "en"
+    loading: "lazy"
+
 # services:
 #   instagram:
 #     disableInlineCSS: true
