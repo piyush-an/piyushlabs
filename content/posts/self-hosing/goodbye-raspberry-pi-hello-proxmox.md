@@ -78,10 +78,6 @@ I chose [Proxmox VE](https://www.proxmox.com/en/products/proxmox-virtual-environ
 
 - Some services, like Home Assistant, offer better compatibility and more features when run as a full VM instead of a container.
 
-### Machines 4: (Lenovo ThinkCentre)
-
-This is a spare hardware for now, I’ll figure out how to put it to use later.
-
 **Cluster Purpose:**
 - **Node 1**: Running and experimenting with self-hosted services  
 - **Node 2**: Dedicated NAS setup to separate storage from workloads  
@@ -89,6 +85,14 @@ This is a spare hardware for now, I’ll figure out how to put it to use later.
 [![Proxmox cluster summary](/images/pve_cluster_summary.png)](/images/pve_cluster_summary.png)
 
 This dashboard shows both nodes in the cluster and gives a quick overview of resource usage and status.
+
+### Machines 4: (Lenovo ThinkCentre)
+
+This is a spare hardware for now, I’ll figure out how to put it to use later.
+
+### Machines 5: (Raspberry)
+
+Still TBD. Might turn it into a local DNS server.
 
 ## What's Next?
 
