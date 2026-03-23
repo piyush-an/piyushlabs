@@ -26,7 +26,7 @@ This is my second attempt at building a homelab. My first setup was a single Ras
 
 Let's go through the hardware. I sourced these before memory and storage prices saw a steep rise over the last 10 months. I was lucky enough to find most of these on Facebook Marketplace.
 
-[![Node Stack](/images/hardware.png)](/images/hardware.png)
+[![Node Stack](/images/hardware.jpg)](/images/hardware.jpg)
 
 ### My Current Setup
 
