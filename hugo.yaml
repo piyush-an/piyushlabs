@@ -80,7 +80,7 @@ params:
   # images: ["/images/avatar.png"] # Uncomment and add your avatar/banner image for social sharing
 
   # Analytics - Add your Google Analytics ID when ready for production
-  # googleAnalytics: "G-MEASUREMENT_ID"
+  googleAnalytics: "G-S0HDTJHB6B"
 
   contact:
     email: "anand.pi@northeastern.edu"
