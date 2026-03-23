@@ -2,9 +2,11 @@
 title: "Inside My Proxmox Home Lab: Two Nodes, Endless Possibilities"
 date: 2026-01-15
 draft: false
+author: "Piyush Anand"
 description: "A comprehensive look at all the services I'm running across my two-node Proxmox cluster, from home automation to NAS solutions."
 tags: ["homelab", "self-hosting"]
 categories: ["self-hosting"]
+series: ["Homelab Journey"]
 ---
 
 **TL;DR:** A two-node Proxmox setup powers my home lab. One node runs all my services and experiments, the other acts as a NAS. I keep things organized with VM-based IPs and rely on automated backups so I can tinker without worrying.
