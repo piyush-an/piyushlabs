@@ -36,11 +36,14 @@ Let's go through the hardware. I sourced these before memory and storage prices 
 - Storage: 256GB to 1TB
 
 **1x Raspberry Pi 4 Model B**
+- CPU: Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz
 - RAM: 8GB
+- Storage: 64GB
 
 **1x Lenovo ThinkCentre M910q Tiny Desktop Mini PC**
 - CPU: Intel Core i7-6700 @ 3.40GHz
-- RAM: Not installed yet
+- RAM: 16GB
+- Storage: 500GB
 
 [![Inside View](/images/inside.JPG)](/images/inside.JPG)
 
