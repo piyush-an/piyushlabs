@@ -86,7 +86,7 @@ params:
     email: "anand.pi@northeastern.edu"
 
   homeInfoParams:
-    Title: "Hi, I'm Piyush"
+    Title: "Hi, I'm Piyush 👋🏻"
     Content: >
       I'm a software engineer based in Boston. This is my place away from work where I share my hobby experiences in self-hosting, 3D printing, home automation, and open source software.
 

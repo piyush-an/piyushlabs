@@ -1,6 +1,6 @@
 ---
 title: "Goodbye Raspberry Pi, Hello Proxmox"
-date: 2026-03-22
+date: 2026-01-10
 draft: false
 author: "Piyush Anand"
 description: "Documenting my journey from a single Raspberry Pi to a full-fledged homelab with Proxmox clusters, exploring self-hosted solutions and open source tools."
@@ -16,7 +16,7 @@ TocOpen: false
 
 **TL;DR:** Upgraded from a single Raspberry Pi to a multi-node homelab featuring 3x HP ProDesk Mini PCs and a Lenovo ThinkCentre, running Proxmox for virtualization with Tailscale VPN for remote access. One node serves as a Windows 11 Pro workstation, while the other two form a Proxmox cluster for running self-hosted services and NAS.
 
-<!--more-->
+---
 
 ## The Journey Begins
 
