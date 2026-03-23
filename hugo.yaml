@@ -69,6 +69,17 @@ menu:
       url: search/
       weight: 40
 
+
+services:
+  googleAnalytics:
+    id: G-S0HDTJHB6B
+
+privacy:
+  googleAnalytics:
+    disable: false
+    respectDoNotTrack: true
+
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Piyush's personal blog on self-hosting, 3D printing, home automation, and open source projects"
@@ -80,10 +91,10 @@ params:
   # images: ["/images/avatar.png"] # Uncomment and add your avatar/banner image for social sharing
 
   # Google Analytics configuration
-  analytics:
-    google:
-      SiteVerificationTag: ""  # Google Search Console verification tag (optional)
-      id: "G-S0HDTJHB6B"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: ""  # Google Search Console verification tag (optional)
+  #     id: "G-S0HDTJHB6B"
 
   contact:
     email: "anand.pi@northeastern.edu"
