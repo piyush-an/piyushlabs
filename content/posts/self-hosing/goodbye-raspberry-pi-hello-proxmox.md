@@ -7,9 +7,9 @@ description: "Documenting my journey from a single Raspberry Pi to a full-fledge
 tags: ["homelab", "self-hosting"]
 categories: ["self-hosting"]
 series: ["Homelab Journey"]
-cover:
-  image: images/hardware.jpg
-  caption: "My Homelab"
+# cover:
+#   image: images/hardware.jpg
+#   caption: "My Homelab"
 ShowToc: true
 TocOpen: false
 ---
@@ -25,6 +25,8 @@ This is my second attempt at building a homelab. My first setup was a single Ras
 ## The Hardware
 
 Let's go through the hardware. I sourced these before memory and storage prices saw a steep rise over the last 10 months. I was lucky enough to find most of these on Facebook Marketplace.
+
+[![Node Stack](/images/hardware.png)](/images/hardware.png)
 
 ### My Current Setup
 
