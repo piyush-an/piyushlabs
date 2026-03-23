@@ -54,7 +54,7 @@ I use [Homepage](https://gethomepage.dev/) as my dashboard, providing quick acce
 
 I’m exploring SSO for my lab. [Keycloak](https://www.keycloak.org/) is my current setup, but I recently discovered [PocketID](https://pocket-id.org/), which offers passkey-based authentication via OIDC. I’m still testing which option fits best.
 
-### Smart Package Tracking
+### Package Tracking
 
 One fun automation I built uses **[Change Detection](https://changedetection.io/)** to track package deliveries. Here’s how it works:
 
@@ -81,6 +81,9 @@ Shared folders are accessible from both my laptop and Windows 11 workstation. Wi
 ### Fedora Workstation Playground
 
 I also run a **Fedora** instance here to explore the latest updates. As a Red Hatter, it feels wrong not to.
+
+
+[![Fedora](/images/fedora.png)](/images/fedora.png)
 
 <!-- --- -->
 
