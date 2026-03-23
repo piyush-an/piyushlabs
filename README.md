@@ -4,7 +4,7 @@
 
 Personal blog about self-hosting, 3D printing, home automation, and open source software.
 
-**Live site:** https://piyushlabs.com/
+**Live site:** https://piyushlabs.us/
 
 ## Tech Stack
 
