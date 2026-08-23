@@ -1,12 +1,11 @@
 ---
-title: "Building vs Buying an Ambient Sensor"
+title: "Buying vs Building an Ambient Sensor"
 date: 2026-08-23
 draft: false
 author: "Piyush Anand"
 description: "I bought a Govee hygrometer and built an ESP32 + DHT22 sensor for Home Assistant. Here is how they compare."
 tags: ["home-assistant", "esp32", "3d-printing"]
 categories: ["home-automation"]
-# url: "/2026/08/building-vs-buying-ambient-sensor/"
 ShowToc: true
 TocOpen: false
 ---
@@ -42,7 +41,7 @@ Once paired, it exposed four sensors immediately:
 - Battery level
 - Bluetooth signal strength
 
-From unboxing to a live reading on my dashboard: roughly fifteen minutes.
+From unboxing to a live reading on my dashboard, it took roughly fifteen minutes.
 
 [![Govee](/images/govee_config.png)](/images/govee_config.png)
 
@@ -134,9 +133,9 @@ Once flashed, Home Assistant discovered the device automatically through the ESP
 
 ## Designing and Printing an Enclosure
 
-Getting the sensor working was one thing. Leaving a bare ESP32 and a DHT22 dangling off a breadboad on a shelf felt wrong.
+Getting the sensor working was one thing. Leaving a bare ESP32 and a DHT22 dangling off a breadboard on a shelf felt wrong.
 
-I wanted a proper enclosure, which meant revisitng CAD skills I hadn't touched since undergrad, roughly a decade ago. I was surprised how quickly it came back. I designed a two-part case: a body to hold the perfboard and a lid with a honeycomb cutout pattern for airflow, since the DHT22 needs to breathe to give accurate readings.
+I wanted a proper enclosure, which meant revisiting CAD skills I hadn't touched since undergrad, roughly a decade ago. I was surprised how quickly it came back. I designed a two-part case: a body to hold the perfboard and a lid with a honeycomb cutout pattern for airflow, since the DHT22 needs to breathe to give accurate readings.
 
 The design is shared on [Thingiverse](https://www.thingiverse.com/thing:7399138)
 
@@ -146,7 +145,7 @@ The design is shared on [Thingiverse](https://www.thingiverse.com/thing:7399138)
 
 ### Four print iterations
 
-Getting to a finished enclosure took four attempts. The body and lid fit came together reasonably quickly, but the micro-USB slot on the side calculation was off my mistake. The tolerance was just slightly off each time. After the fourth print I gave up trying to dial it in perfectly and used a knife to open the slot by a two millimetre. Not elegant, but it works.
+Getting to a finished enclosure took four attempts. The body and lid fit came together reasonably quickly, but the micro-USB slot refused to cooperate. I kept getting the dimensions wrong. The tolerance was just slightly off each time. After the fourth print I gave up trying to dial it in perfectly and used a knife to open the slot by two millimetres. Not elegant, but it works.
 
 The brass heat-set inserts screw into the perfboard mounting posts and hold the board securely in place. The lid snaps on cleanly and can be removed for any future rework.
 
@@ -158,8 +157,7 @@ The brass heat-set inserts screw into the perfboard mounting posts and hold the 
 
 ## Both Sensors on the Dashboard
 
-With everything assembled and flashed, I added both devices to my Home Assistant dashboard as side-by-side cards. At the moment both sensors work which was a good sanity check that the DHT22 calibration is in the right ballpark relative to the Govee.
-
+With everything assembled and flashed, I added both devices to my Home Assistant dashboard as side-by-side cards. Both sensors are now live and reading roughly the same values, which was a good sanity check that the DHT22 is calibrated in the right ballpark. After all the iterations, seeing both sensors finally sitting in the same dashboard felt oddly satisfying.
 
 [![Home Assistant dashboard with both sensors](/images/both_final.jpg)](/images/both_final.jpg)
 
