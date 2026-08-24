@@ -19,7 +19,7 @@ TocOpen: false
 
 It finally happened to me.
 
-<video width="40%" controls autoplay playsinline>
+<video width="40%" controls playsinline>
   <source src="/images/package_stolen.mp4" type="video/mp4">
 </video>
 
