@@ -1,6 +1,6 @@
 ---
 title: "Buying vs Building an Ambient Sensor"
-date: 2026-08-23
+date: 2026-08-15
 draft: false
 author: "Piyush Anand"
 description: "I bought a Govee hygrometer and built an ESP32 + DHT22 sensor for Home Assistant. Here is how they compare."
@@ -72,10 +72,15 @@ The total came to more than the Govee, though part of that cost is tools that no
 
 The circuit itself is simple: the DHT22 data pin connects to GPIO4, with 3.3V and GND completing the circuit. Nothing exotic, but it's satisfying when you actually see the sensor start reporting data.
 
+[![ESP32 Config](/images/pin_out.png)](/images/pin_out.png)
+
 
 ### ESPHome configuration
 
 I used the web-based [ESPHome](https://esphome.io/) Device Builder to create the config, which it flashed directly to the ESP32 over USB. After that, all future updates happen wirelessly over OTA. Here's the configuration:
+
+<details>
+<summary>View full ESPHome configuration</summary>
 
 ```yaml
 esphome:
@@ -124,6 +129,9 @@ sensor:
       name: "Ambient Humidity"
     update_interval: 30s
 ```
+
+</details>
+
 
 Once flashed, Home Assistant discovered the device automatically through the ESPHome integration, and the same four sensor types appeared: temperature, humidity, WiFi signal strength, and uptime.
 
