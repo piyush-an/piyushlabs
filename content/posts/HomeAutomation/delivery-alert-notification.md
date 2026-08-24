@@ -80,7 +80,7 @@ Here's the full flow from carrier website to my ears:
 
 ### Node-RED Flow
 
-Node-RED handles the routing. It's a low-code, visual flow builder that runs as a service in my homelab. My flow is straightforward: an MQTT subscriber node listens on the topic, and when a message arrives, it fans out to three Google Home media player nodes, one for each speaker.
+[Node-RED](https://nodered.org/) handles the routing. It's a low-code, visual flow builder that runs as a service in my homelab. My flow is straightforward: an MQTT subscriber node listens on the topic, and when a message arrives, it fans out to three Google Home media player nodes, one for each speaker.
 
 [![Node-RED delivery alert flow](/images/node_red_flow.png)](/images/node_red_flow.png)
 
