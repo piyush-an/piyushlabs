@@ -28,7 +28,7 @@ A package from AliExpress was delivered in my apartment lobby and was gone by th
 
 I decided right then that I was not going to let it happen again.
 
-<img src="/images/smart.gif" alt="Alt text" width="75%">
+<img src="/images/smart.gif" alt="Alt text" width="100%">
 
 Living in an apartment rules out the obvious fix. I cannot mount a camera in the lobby. That's a problem for when I eventually get a house. For now, I needed a software solution that could tell me the moment a package hit my doorstep.
 
